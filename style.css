@@ -1,0 +1,53 @@
+body {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+header {
+  top: 0;
+}
+ul {
+  /* background-color: gray; */
+  display: block;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.banner {
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  
+}
+
+.banner-text {
+  text-align: left;
+  width: 50%;
+}
+
+.banner-image {
+  display: inline;
+}
+
+.book-card {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding:5px;
+  border-radius: 8px;
+  border: 1px solid black;
+  
+}
+.book-card:hover {
+  cursor: pointer;
+background-color: #259feb3a;
+}
+
+i{
+  font-size: 10px;
+}
